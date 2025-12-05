@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Punto Violeta Digital</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>Punto Violeta Digital</h1>
+        <nav>
+            <a href="#ayuda">Ayuda Rápida</a>
+            <a href="#chat">Chat Anónimo</a>
+            <a href="#psicologia">Apoyo Psicológico</a>
+            <a href="#legal">Apoyo Legal</a>
+            <a href="#recursos">Recursos</a>
+        </nav>
+    </header>
+
+    <!-- Sección Inicio -->
+    <section id="inicio" class="section">
+        <h2>Un espacio seguro, anónimo y gratuito para mujeres</h2>
+        <p>Encuentra apoyo emocional, legal y herramientas para identificar la violencia.</p>
+    </section>
+
+    <!-- Sección Ayuda Rápida -->
+    <section id="ayuda" class="section">
+        <h2>Ayuda Inmediata</h2>
+        <button onclick="alert('Llamando al 911...')">Llamar al 911</button>
+        <button onclick="alert('Marcando Línea Mujeres: 55 5658 1111')">Línea Mujeres CDMX</button>
+    </section>
+
+    <!-- Sección Chat Anónimo -->
+    <section id="chat" class="section">
+        <h2>Chat Anónimo</h2>
+        <p>Escribe tu mensaje sin dar datos personales:</p>
+        <textarea id="mensaje" placeholder="Escribe aquí tu mensaje..."></textarea>
+        <button onclick="enviarMensaje()">Enviar</button>
+        <p id="respuesta"></p>
+    </section>
+
+    <!-- Sección Apoyo Psicológico -->
+    <section id="psicologia" class="section">
+        <h2>Apoyo Psicológico</h2>
+        <ul>
+            <li>Técnicas de respiración</li>
+            <li>Crisis emocional: qué hacer</li>
+            <li>Primeros auxilios psicológicos</li>
+            <li>Cómo identificar relaciones violentas</li>
+        </ul>
+    </section>
+
+    <!-- Sección Legal -->
+    <section id="legal" class="section">
+        <h2>Apoyo Legal</h2>
+        <ul>
+            <li>Cómo denunciar</li>
+            <li>Derechos de las mujeres</li>
+            <li>Orden de protección</li>
+            <li>Lugares donde pedir ayuda</li>
+        </ul>
+    </section>
+
+    <!-- Sección Recursos -->
+    <section id="recursos" class="section">
+        <h2>Recursos Descargables</h2>
+        <p>Aquí podrás agregar PDFs, infografías o guías.</p>
+    </section>
+
+<script src="js/app.js"></script>
+</body>
+</html>
